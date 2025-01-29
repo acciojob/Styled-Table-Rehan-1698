@@ -3,91 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game Statistics</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            display: flex;
-            justify-content: center;
-            padding: 20px;
-        }
-        table {
-            width: 80%;
-            border-collapse: collapse;
-            margin: 20px 0;
-            background-color: #ffffff;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        th, td {
-            padding: 12px;
-            text-align: center;
-            border: 1px solid #ddd;
-        }
-        th {
-            background-color: #4CAF50;
-            color: white;
-            font-size: 18px;
-        }
-        td {
-            background-color: #f9f9f9;
-        }
-        tr:nth-child(even) td {
-            background-color: #f1f1f1;
-        }
-        tr:hover td {
-            background-color: #e2e2e2;
-        }
-        .highlight {
-            background-color: #ffeb3b;
-        }
-    </style>
+    <title>Document</title>
 </head>
 <body>
+    <style>
+		table{
+			width:100%
+			text-align:center	
+		}
+		table,th,td{
+			border:1px solid black;
+			border-collapse:collapse;
+		}
+		.name{
+			background-color:rgb(9, 133, 183)
+		}
+        .highlight{
+            background-color:lightslategray;
 
-<table>
-    <thead>
-        <tr>
-            <th>Player</th>
-            <th>Level</th>
-            <th>Score</th>
-            <th>Kills</th>
-            <th>Rank</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>JohnDoe</td>
-            <td>45</td>
-            <td>2000</td>
-            <td>150</td>
-            <td>Gold</td>
-        </tr>
-        <tr>
-            <td>JaneSmith</td>
-            <td>38</td>
-            <td>1700</td>
-            <td>120</td>
-            <td>Silver</td>
-        </tr>
-        <tr>
-            <td>AlexBrown</td>
-            <td>25</td>
-            <td>1100</td>
-            <td>90</td>
-            <td>Bronze</td>
-        </tr>
-        <tr>
-            <td>EmilyWhite</td>
-            <td>50</td>
-            <td>2500</td>
-            <td>200</td>
-            <td class="highlight">Platinum</td>
-        </tr>
-    </tbody>
-</table>
-
+        }
+	</style>
+    <!-- add table here -->
+	<table>
+		<thead>
+			<tr class="name">
+				<td>NAME</td>
+			    <td>KILLS</td>
+				<td>SAVE</td>
+				<td>DEATHS</td>
+				<td>REVIVES</td>
+				<td>WIN</td>
+			</tr>
+			<tbody>
+				<tr>
+					<td>Delhi</td>
+					<td>10</td>
+					<td>0</td>
+					<td>1</td>
+					<td>0</td>
+					<td>0</td>
+					
+				</tr>
+				<tr class="highlight">
+					<td>Mumbai</td>
+					<td>13</td>
+					<td>4</td>
+					<td>8</td>
+					<td>7</td>
+					<td>1</td>
+					
+				</tr>
+				<tr>
+					<td>Kolkata</td>
+					<td>19</td>
+					<td>2</td>
+					<td>10</td>
+					<td>11</td>
+					<td>0</td>
+				</tr>
+				<tr class="highlight">
+					<td>Banglore</td>
+					<td>2</td>
+					<td>9</td>
+					<td>3</td>
+					<td>5</td>
+					<td>1</td>
+				</tr>
+			</tbody>
+			</thead>
+	</table>
 </body>
 </html>
 
